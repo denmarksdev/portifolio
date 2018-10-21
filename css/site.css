@@ -91,7 +91,7 @@ a:hover {
     transform: translateY(-10px);
 }
 
-.work-item-content:hover {
+.work-item-link-content:hover {
     color: #02b3e4;
 }
 
