@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #2d3c49;
     background: #fff;
 }
@@ -64,6 +64,11 @@ a:hover {
     color: #7d97ad;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
 
 /* Main */
 
@@ -71,6 +76,20 @@ a:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.introducao {
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    max-width: 300px;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 5px;
 }
 
 .works-container {
@@ -114,6 +133,7 @@ footer {
 .footer-link {
     text-decoration: none;
     color: #fff;
+    margin-right: 10px;
 }
 
 .social-links {
@@ -124,7 +144,7 @@ footer {
 }
 
 
-/* Medium break point */
+/* High break point */
 
 @media screen and (max-width:800px) {
     .works-container {
@@ -135,6 +155,14 @@ footer {
     }
 }
 
+/* Medium break point */
+
+@media screen and (max-width:650px) {
+    
+    .introducao {
+        flex-direction: column;
+    }
+}
 
 /* Mininum break point */
 
